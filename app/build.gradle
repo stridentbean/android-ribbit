@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "ind.habanero.realestatecalculator"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.google.guava:guava:15.0'
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile files('libs/Parse-1.8.2/Parse-1.8.2.jar')
+    compile files('libs/Parse-1.8.2/ParseCrashReporting-1.8.2.jar')
+    compile files('libs/itext/itext-pdfa-5.5.5.jar')
+    compile files('libs/itext/itextpdf-5.5.5.jar')
+}

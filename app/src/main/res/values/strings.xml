@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="required_field_text">Required</string>
+    <string name="app_name">Real Estate Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_estimate_property">Home</string>
+    <string name="title_activity_property_info">Property Information</string>
+    <string name="title_activity_repair_estimate">Repair Estimates</string>
+    <string name="title_activity_assignment">Assignment</string>
+    <string name="title_activity_double_close">Double Close</string>
+    <string name="basic_information_location">basicInformation.json</string>
+    <string name="application_id">jal7GHjnGrnoCVSgBbg7rO03c3FIAsdO8OTGo0tP</string>
+    <string name="client_key">ppyZAeugZ07GOgksSvTDAzLl2e7GtRkUfSpSj3BK</string>
+    <string name="email_assignment_subject">Assignment Subject PDF</string>
+    <string name="email_message">Contents of message Field</string>
+    <string name="minimum_dom_warning">You may want to rethink your strategy.  This market looks too hot right now.</string>
+    <string name="title_activity_basic_information">Basic Information</string>
+    <string name="basic_information_disclaimer">We use this info to quickly create your flyers</string>
+    <string name="warning_repair_cost">Repair Cost Greater than 0 required</string>
+    <string name="warning_arv_not_set">Please set a valid ARV</string>
+    <string name="email_repair_estimate_message">Repair Estimate Message</string>
+    <string name="email_repair_estimate_subject">Repair Estimate Subject</string>
+    <string name="pdf_repair_estimate_name">Repair Estimate.pdf</string>
+    <string name="pdf_repair_estimate">Repair Estimate</string>
+    <string name="pdf_assignment">Assignment</string>
+    <string name="pdf_assignment_name">Assignment.pdf</string>
+    <string name="pdf_double_close">Double Close</string>
+    <string name="pdf_double_close_name">Double Close.pdf</string>
+    <string name="email_pdf_double_close_subject">Double Close Flyer</string>
+    <string name="warning_switched_and_empty">Please check the following items, you have not assigned an amount or price! </string>
+    <string name="title_activity_register">Sign Up</string>
+    <string name="error_confirm_password">Passwords must match</string>
+    <string name="title_logout">Log Out</string>
+    <string name="required_phone_area_code">Please list your full phone number</string>
+    <string name="required_full_state">Please complete the state</string>
+
+
+</resources>

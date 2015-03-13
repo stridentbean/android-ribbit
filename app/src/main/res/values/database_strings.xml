@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TABLE_USER_INFORMATION">BasicInformation</string>
+    <string name="COLUMN_FIRST_NAME">firstName</string>
+    <string name="COLUMN_LAST_NAME">lastName</string>
+    <string name="COLUMN_BUSINESS_NAME">businessName</string>
+    <string name="COLUMN_PHONE">phone</string>
+    <string name="COLUMN_EMAIL">email</string>
+    <string name="COLUMN_BUSINESS_EMAIL">businessEmail</string>
+    <string name="TABLE_ADDRESS">Address</string>
+    <string name="COLUMN_USER_ID">userId</string>
+    <string name="COLUMN_BASIC_INFORMATION_ID">basicInformationId</string>
+    <string name="COLUMN_ADDRESS_LINE_1">addressLine1</string>
+    <string name="COLUMN_ADDRESS_LINE_2">addressLine2</string>
+    <string name="COLUMN_CITY">city</string>
+    <string name="COLUMN_SATE">state</string>
+    <string name="COLUMN_ZIP">zip</string>
+</resources>

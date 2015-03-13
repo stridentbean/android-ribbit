@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bathroom_values">
+        <item >0</item>
+        <item >0.5</item>
+        <item >1</item>
+        <item >1.5</item>
+        <item >2</item>
+        <item >2.5</item>
+        <item >3</item>
+        <item >3.5</item>
+        <item >4</item>
+        <item >4.5</item>
+        <item >5</item>
+        <item >5.5</item>
+        <item >6</item>
+        <item >6.5</item>
+        <item >7</item>
+        <item >7.5</item>
+        <item >8</item>
+        <item >8.8</item>
+        <item >9</item>
+        <item >9.5</item>
+    </string-array>
+    <string-array name="kitchen_values">
+        <item >No Kitchen</item>
+        <item >Half Kitchen</item>
+        <item >Full Kitchen</item>
+    </string-array>
+    <string-array name="kitchen_map">
+        <item >No Kitchen:0</item>
+        <item >Half Kitchen:0.5</item>
+        <item >Full Kitchen:1.0</item>
+    </string-array>
+    <string-array name="default_prices">
+        <item >OUTSIDE_PAINT:$2.00</item>
+        <item >INSIDE_PAINT:$1.75</item>
+        <item >REMOVE_POPCORN:$0.40</item>
+        <item >TEXTURE_WALLS:$0.80</item>
+        <item >BASE_BOARD_MOULDING:$0.35</item>
+        <item >FLOORING:$3.00</item>
+        <item >ELECTRICAL:$1,000.00</item>
+        <item >PLUMBING:$500.00</item>
+        <item >LANDSCAPING:$250.00</item>
+        <item >GARAGE_DOOR:$900.00</item>
+        <item >ROOF:$2.63</item>
+        <item >FRONT_DOOR:$350.00</item>
+        <item >BACK_DOOR:$200.00</item>
+        <item >WINDOWS:$300.00</item>
+        <item >LIGHTS:$100.00</item>
+        <item >BEDROOMS:$450.00</item>
+        <item >KITCHEN:$10,000.00</item>
+        <item >BATHROOMS:$3,500.00</item>
+        <item >WATER_HEATER:$1,000.00</item>
+        <item >HVAC:$3,500.00</item>
+        <item >POOL:$1,200.00</item>
+        <item >DUMPSTER:$600.00</item>
+        <item >PERMITS:$1,500.00</item>
+        <item >OTHER:$0</item>
+    </string-array>
+    <string-array name="bedroom_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+    </string-array>
+    <string-array name="list_of_states">
+        <item >Alabama</item>
+        <item >Alaska</item>
+        <item >Arizona</item>
+        <item >Arkansas</item>
+        <item >California</item>
+        <item >Colorado</item>
+        <item >Connecticut</item>
+        <item >Delaware</item>
+        <item >Florida</item>
+        <item >Georgia</item>
+        <item >Hawaii</item>
+        <item >Idaho</item>
+        <item >Illinois</item>
+        <item >Indiana</item>
+        <item >Iowa</item>
+        <item >Kansas</item>
+        <item >Kentucky</item>
+        <item >Louisiana</item>
+        <item >Maine</item>
+        <item >Maryland</item>
+        <item >Massachusetts</item>
+        <item >Michigan</item>
+        <item >Minnesota</item>
+        <item >Mississippi</item>
+        <item >Missouri</item>
+        <item >Montana</item>
+        <item >Nebraska</item>
+        <item >Nevada</item>
+        <item >New Hampshire</item>
+        <item >New Jersey</item>
+        <item >New Mexico</item>
+        <item >New York</item>
+        <item >North Carolina</item>
+        <item >North Dakota</item>
+        <item >Ohio</item>
+        <item >Oklahoma</item>
+        <item >Oregon</item>
+        <item >Pennsylvania</item>
+        <item >Rhode Island</item>
+        <item >South Carolina</item>
+        <item >South Dakota</item>
+        <item >Tennessee</item>
+        <item >Texas</item>
+        <item >Utah</item>
+        <item >Vermont</item>
+        <item >Virginia</item>
+        <item >Washington</item>
+        <item >West Virginia</item>
+        <item >Wisconsin</item>
+        <item >Wyoming</item>
+        <item >District of Columbia</item>
+        <item >Puerto Rico</item>
+        <item >Guam</item>
+        <item >American Samoa</item>
+        <item >Virgin Islands</item>
+        <item >Northern Mariana Islands</item>
+    </string-array>
+
+</resources>

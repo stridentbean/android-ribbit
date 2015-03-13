@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ind.habanero.realestatecalculator" >
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:name=".ParseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BasicInformationActivity"
+            android:label="@string/title_activity_basic_information" >
+        </activity>
+        <activity
+            android:name=".EstimatePropertyActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PropertyInfoActivity"
+            android:label="@string/title_activity_property_info" >
+        </activity>
+        <activity
+            android:name=".RepairEstimateActivity"
+            android:label="@string/title_activity_repair_estimate" >
+        </activity>
+        <activity
+            android:name=".AssignmentActivity"
+            android:label="@string/title_activity_assignment" >
+        </activity>
+        <activity
+            android:name=".DoubleCloseActivity"
+            android:label="@string/title_activity_double_close" >
+        </activity>
+
+        <provider
+            android:name=".CachedFileProvider"
+            android:authorities="ind.habanero.realestatecalculator.gmailattach.provider"
+            android:grantUriPermissions="true" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+    </application>
+
+</manifest>
